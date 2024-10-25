@@ -16,16 +16,18 @@ export default function Content() {
           url(${BackgroundImage})`,
       }}
     >
-      <div className="flex flex-col items-center justify-center h-full">
-        <div className="text-white text-center space-y-4">
-          <div className="font-black text-5xl">Are You a Supplier?</div>
-          <div className="font-light text-5xl">
+      <div className="flex flex-col items-center justify-center h-full px-4 sm:px-8 lg:px-16">
+        <div className="text-white text-center space-y-4 mb-6">
+          <div className="font-black text-3xl md:text-4xl lg:text-5xl">
+            Are You a Supplier?
+          </div>
+          <div className="font-light text-2xl md:text-3xl lg:text-5xl">
             Explore Matching Opportunities.
           </div>
         </div>
 
-        <div className="flex justify-center mt-4 space-x-2 w-full">
-          <div className="relative w-1/4">
+        <div className="flex flex-col sm:flex-row justify-center mt-4 space-y-2 sm:space-y-0 sm:space-x-2 w-full max-w-2xl">
+          <div className="relative w-full sm:w-1/2">
             <div className="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
               <img src={SuitCaseIcon} alt="Suitcase Icon" className="w-4 h-4" />
             </div>
@@ -36,7 +38,7 @@ export default function Content() {
             />
           </div>
 
-          <div className="relative w-1/4">
+          <div className="relative w-full sm:w-1/2">
             <div className="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
               <img src={LocationIcon} alt="Location Icon" className="w-4 h-4" />
             </div>
@@ -46,15 +48,17 @@ export default function Content() {
               placeholder="Search your desired location here"
             />
           </div>
-          <button className="px-4 py-2 text-white bg-[#00732F] rounded-sm hover:bg-blue-600">
+          <button className="w-full sm:w-auto px-4 py-2 text-white bg-[#00732F] rounded-sm hover:bg-blue-600">
             Search
           </button>
         </div>
 
-        <div className="flex justify-center items-center text-white mt-4 space-x-2">
+        <div className="flex flex-col sm:flex-row justify-center items-center text-white mt-6 space-y-2 sm:space-y-0 sm:space-x-2 text-center sm:text-left">
           <div className="text-lg font-extrabold">Are you a buyer?</div>
-          <div className="underline">Click here if you are looking to post a requirement</div>
+          <div className="underline cursor-pointer">
+            Click here if you are looking to post a requirement
           </div>
+        </div>
       </div>
     </div>
   );
