@@ -12,7 +12,7 @@ export default function Verified() {
       <div className="w-full lg:w-1/2 flex justify-center lg:justify-end items-center">
         <button
           type="button"
-          className="text-white w-full lg:w-2/6 bg-[#EB7150] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-sm text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+          className="text-white w-full lg:w-2/6 bg-[#EB7150] hover:bg-[#FF8F61] active:bg-[#C85A3B] focus:ring-4 focus:ring-blue-300 font-bold rounded-sm text-sm px-5 py-2.5 dark:bg-[#EB7150] dark:hover:bg-[#FF8F61] dark:active:bg-[#C85A3B] focus:outline-none dark:focus:ring-[#EB7150]"
         >
           Get Verified
         </button>

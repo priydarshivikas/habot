@@ -22,7 +22,7 @@ export default function Travels() {
           of like-minded individuals, unlock valuable resources, and take the
           first step towards realizing your entrepreneurial dreams.
         </p>
-        <button className="px-4 py-2 text-white bg-[#00732F] rounded-sm hover:bg-blue-600">
+        <button className="px-4 py-2 text-white bg-[#00732F] rounded-sm hover:bg-green-700">
           Sign up Today!
         </button>
       </div>

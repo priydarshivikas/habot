@@ -48,7 +48,7 @@ export default function Content() {
               placeholder="Search your desired location here"
             />
           </div>
-          <button className="w-full sm:w-auto px-4 py-2 text-white bg-[#00732F] rounded-sm hover:bg-blue-600">
+          <button className="w-full sm:w-auto px-4 py-2 text-white bg-[#00732F] rounded-sm hover:bg-green-700">
             Search
           </button>
         </div>
